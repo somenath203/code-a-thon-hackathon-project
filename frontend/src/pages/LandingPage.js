@@ -4,9 +4,9 @@ import { Typewriter } from 'react-simple-typewriter';
 
 const LandingPage = () => {
     return (
-        <div className="min-h-screen flex items-center justify-center flex-col gap-12 bg-gradient-to-bl from-violet-200 to-violet-300">
+        <div className="min-h-screen text-center flex items-center justify-center flex-col gap-12 bg-gradient-to-bl from-violet-200 to-violet-300">
 
-            <p className="text-4xl text-center tracking-wide font-mono font-bold">
+            <p className="text-4xl tracking-wide font-mono font-bold">
 
                 <Typewriter
                     words={['Personal Finance Manager', 'Manage your finance like never before']}
